@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root {
+    --DARK: #121116;
+    --WHITE: #ffffff;
+    --base-font: 'Open Suns', sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+        font-family: var(--base-font);
+        color: var(--WHITE); 
+    } 
+    footer {
+        position: fixed;
+        bottom: 0;
+        background-color: var(--DARK);
+        width: 1920px; height: 420px;
+    }
+    .logo {
+        width: 112px;
+        height: 36px;
+        position: relative;
+        right: 906px;
+        left: 902px;
+        top: 125px;
+    }
+    .container {
+        position: relative;
+        right: 422,5px;
+        left: 422,5px;
+        top: 175px;
+        bottom: 140px;
+        width: 230px;
+        height: 73px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:var(--DARK);
+    }
+    p {
+        height: 14px;
+        text-align: center;
+        margin: auto;
+        font-family: var(--base-font);
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: var(--WHITE);
+    }
+    .separator {
+        width: 230px;
+        height: 1px;
+        background-color: var(--WHITE);
+        margin-top: 23px;
+    }
+    .icon {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: auto;
+    }
+    .copyright {
+        position: relative;
+        margin: auto;
+        width: 250px;
+        height: 16px;
+        right: 828px;
+        left: 842px;
+        top: 255px;
+    }
+    .icon_position {
+        padding: 20px;
+    }
