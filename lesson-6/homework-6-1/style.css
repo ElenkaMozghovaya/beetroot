@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'proxima_nova_condensedregular';
+    src: url('proxima_nova_condensed_regular-webfont.woff2') format('woff2'),
+         url('proxima_nova_condensed_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --WHITE:#ffffff;
+    --DARK: #000000;
+    --GREY: #9d9d9d;
+    --BLUE: #2a69a6;
+    --BASE-FONT: 'Proxima_nova' , sans-serif;
+    --CONTEINER: 1098px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: var(--BASE-FONT);
+}
+.container {
+    width: 100%;
+    max-width: var(--CONTEINER);
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    background-color: var(--WHITE);
+    padding: 108px 24px 73px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.menu-list__item {
+    display: flex;
+    flex-direction: column;
+    text-emphasis: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.card-text {
+   width: 220px;
+   height: 52px;
+   color: var(--GREY);
+   font-size: 14px;
+   font-weight: 300;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: 20px;
+   text-align: center;
+}
+.card-title {
+    color: var(--DARK);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.icon-wrapper:hover {
+    background-color: var(--WHITE);
+    border: 1px solid var(--BLUE);
+}
+.icon-wrapper:hover svg{
+    fill: var(--BLUE);
+}
+.use-tablet {
+    width: 22px;
+    height: 30px;
+    fill:var(--WHITE);
+}
+.use-settings {
+    width: 26px;
+    height: 26px;
+    fill: var(--WHITE);
+}
+.use-dashboard {
+    width: 28px;
+    height: 24px;
+    fill: var(--WHITE);
+}
+.icon-wrapper {
+    width: 65px;
+    height: 63px;
+    border-radius: 50px;
+    border: 1px solid var(--BLUE);
+    background-color: var(--BLUE);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 77px;
+}
+
