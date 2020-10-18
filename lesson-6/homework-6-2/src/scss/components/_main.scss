@@ -1,0 +1,12 @@
+$PADDING: 40px;
+
+.main {
+    align-self: center;
+    padding: $PADDING;
+    width: 100%;
+    max-width: 800px + ($PADDING * 2);
+    @include flex-col();
+    &__list { 
+        margin-bottom: 40px;
+    }
+}
