@@ -1,0 +1,11 @@
+@import './vars';
+@import './mixins';
+@import './common';
+
+//Components
+@import './components/header';
+@import './components/subtitle';
+@import './components/main';
+@import './components/shopping-list';
+@import './components/shopping-item';
+@import './components/footer';
