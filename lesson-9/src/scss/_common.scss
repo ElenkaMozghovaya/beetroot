@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+    background-color: $lisbon;
+    border: 24px solid $border-color;
+    padding: 32px;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+  }
