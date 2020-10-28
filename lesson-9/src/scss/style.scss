@@ -1,0 +1,11 @@
+@import './weather-icons-master/sass/weather-icons.scss';
+@import './vars';
+@import './common';
+
+// components
+
+@import './components/header';
+@import './components/footer';
+@import './components/list';
+@import './components/card';
+@import './components/main';
